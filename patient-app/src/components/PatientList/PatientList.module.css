@@ -1,0 +1,80 @@
+.patientTableContainer {
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: none; 
+}
+
+.patientTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: none; 
+  border-bottom: 1px solid #ddd;
+}
+
+.patientTable th, .patientTable td {
+  padding: 12px 15px;
+  text-align: left; 
+  background-color: #ffffff; 
+  color: #333333; 
+  font-weight: normal; 
+  border: none;
+  border-radius: 10px;
+}
+
+.patientTable th {
+  background-color: #ffffff;
+  border: none;
+}
+
+.patientTable tr th {
+  background-color: #ffffff; 
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 
+}
+
+.patientTable tr td {
+  background-color: #ffffff; 
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 
+}
+
+
+.patientTable tr:hover {
+  background-color: #f1f1f1; 
+}
+
+.patientTable td {
+  border-bottom: none
+}
+
+.actions {
+  text-align: center; 
+}
+
+.actionButton {
+  background: none; 
+  border: none; 
+  cursor: pointer; 
+  margin: 0 5px; 
+  color: #666666; 
+}
+
+.actionButton i {
+  font-size: 18px; 
+}
+
+.newButton {
+  padding: 10px 20px;
+  background-color: #14acc4; 
+  color: white; 
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: none; 
+}
+
+.newButton:hover {
+  background-color: #0a8e92; 
+}

@@ -1,0 +1,73 @@
+.wrapper {
+  width: 100%;
+  padding: 0;
+  background: #f0f0f0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #666;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.sectionTitle {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #666;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.formRow {
+  display: flex;
+  width: 100%;
+  gap: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.halfWidth {
+  flex: 1 1 48%;
+}
+
+.fullWidth {
+  flex: 1 1 100%;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.textField input::placeholder {
+  color: #c9c9c9;
+}
+
+.formContainer {
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 10px;
+}
+

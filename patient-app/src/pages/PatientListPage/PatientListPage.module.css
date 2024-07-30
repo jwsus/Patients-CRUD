@@ -1,0 +1,106 @@
+.container {
+  width: 80%;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+
+.line {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.newButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+
+
+.searchContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.searchHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.searchBarContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* width: 100%; */
+}
+
+.searchBar input {
+  padding: 10px;
+  width: 500px;
+  flex-grow: 1;
+  background-color: white;
+  border: none;
+}
+
+.searchBar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.patientList {
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.patientList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patientList th, .patientList td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.patientList th {
+  background-color: #f2f2f2;
+}
+
+.title {
+  font-weight: bold;
+  color: #9b9b9b;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.newButton {
+  padding: 3px 30px;
+  background-color: #14acc4; /* Cor de fundo do botão */
+  color: white; /* Cor do texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newButton:hover {
+  background-color: #0a8e92; /* Cor ao passar o mouse */
+}
